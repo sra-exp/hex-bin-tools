@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Features Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Web Features Showcase</h1>
+    </header>
+
+    <!-- HTML5 Semantic Elements -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>HTML Features</h2>
+            <p>HTML5 brings semantic elements, multimedia support, and more!</p>
+            <!-- Multimedia Embed -->
+            <video controls>
+                <source src="sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+        <article>
+            <h2>CSS Features</h2>
+            <p>Hover over the box below to see a CSS transition!</p>
+            <!-- CSS Transition Example -->
+            <div class="css-box"></div>
+        </article>
+        <article>
+            <h2>JavaScript Features</h2>
+            <p>Click the button below to fetch a random quote using JavaScript!</p>
+            <!-- JS Fetch API Example -->
+            <button onclick="fetchQuote()">Fetch Quote</button>
+            <blockquote id="quote"></blockquote>
+        </article>
+    </section>
+
+    <footer>
+        <p>Created by ChatGPT - A showcase of web features.</p>
+    </footer>
+</body>
+</html>

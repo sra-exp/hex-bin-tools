@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.css-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.3s ease;
+}
+
+.css-box:hover {
+    transform: scale(1.2);
+}
